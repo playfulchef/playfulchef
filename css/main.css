@@ -27,20 +27,20 @@ a:active {
     text-decoration: none;
 }
 nav {
-    background-color: #006DA8;
+    background-color: #4CBEAE;
     text-align: center;
     padding: .5em;
     font-size: 1.25em;
 }
 nav a {
-    color: #FFF;
+    color: #006DA8;
     padding: 1.5em;
 }
 nav a:hover {
     color: #F7C124;
 }
 nav a visited {
-    color: #FFF;
+    color: #006DA8;
 }
 .hero {
     background-image: url("../img/bakergirls.jpg");
@@ -64,11 +64,14 @@ nav a visited {
     color: #006DA8;
     padding: 1em;
 }
+.introduction h1 {
+    text-align: center;
+}
 .introduction a {
-    color: #006DA8;
+    color: #F7C124;
 }
 .introduction a:hover {
-    color: #F7C124;
+    color: #F46508;
 }
 .introduction img {
     display: block;
@@ -82,6 +85,9 @@ main {
     text-align: center;
     padding: 1em;
 }
+main img {
+    padding-top: 2.5em;
+}
 .product1 {
     color: #C8102E;
 }
@@ -89,7 +95,7 @@ main {
     color: #C8102E;
 }
 .product1 a:hover {
-    color: #F46508;
+    color: #006DA8;
 }
 .product2 {
     color: #006DA8;
@@ -116,7 +122,7 @@ main {
     color: #E31C79;
 }
 .product4 a:hover {
-    color: #F46508;
+    color: #006DA8;
 }
 .product5 {
     color: #C8102E;
@@ -125,7 +131,7 @@ main {
     color: #C8102E;
 }
 .product5 a:hover {
-    color: #F46508;
+    color: #006DA8;
 }
 .order-button-div {
     margin: 4em;
@@ -137,7 +143,7 @@ main {
     background-color: #F7C124;
     border: none;
     border-radius: 10px;
-    padding: 12px 50px;
+    padding: 20px 80px;
     margin: 0 auto;
 }
 .order-button:hover {
