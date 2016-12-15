@@ -1,0 +1,354 @@
+.body-container {
+    margin: 0 auto;
+    font-family: 'Muli', sans-serif;
+}
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 2.5em;
+    letter-spacing: .08em;
+}
+h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.5em;
+}
+p {
+    font-size: 1.25em;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+nav {
+    background-color: #006DA8;
+    text-align: center;
+    padding: .5em;
+    font-size: 1.25em;
+}
+nav a {
+    color: #FFF;
+    padding: 1.5em;
+}
+nav a:hover {
+    color: #F7C124;
+}
+nav a visited {
+    color: #FFF;
+}
+.hero {
+    background-image: url("../img/bakergirls.jpg");
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    color: #006DA8;
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+}
+.hero-h1 {
+    font-size: 8em;
+    padding-top: 4em;
+    letter-spacing: .1em;
+}
+.introduction {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #006DA8;
+    padding: 1em;
+}
+.introduction a {
+    color: #006DA8;
+}
+.introduction a:hover {
+    color: #F7C124;
+}
+.introduction img {
+    display: block;
+    margin: auto;
+    padding: 1em;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #006DA8;
+    text-align: center;
+    padding: 1em;
+}
+.product1 {
+    color: #C8102E;
+}
+.product1 a {
+    color: #C8102E;
+}
+.product1 a:hover {
+    color: #F46508;
+}
+.product2 {
+    color: #006DA8;
+}
+.product2 a {
+    color: #006DA8;
+}
+.product2 a:hover {
+    color: #F46508;
+}
+.product3 {
+    color: #A05EB5;
+}
+.product3 a {
+    color: #A05EB5;
+}
+.product3 a:hover {
+    color: #F46508;
+}
+.product4 {
+    color: #E31C79;
+}
+.product4 a {
+    color: #E31C79;
+}
+.product4 a:hover {
+    color: #F46508;
+}
+.product5 {
+    color: #C8102E;
+}
+.product5 a {
+    color: #C8102E;
+}
+.product5 a:hover {
+    color: #F46508;
+}
+.order-button-div {
+    margin: 4em;
+}
+.order-button {
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.75em;
+    color: #006DA8;
+    background-color: #F7C124;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 50px;
+    margin: 0 auto;
+}
+.order-button:hover {
+    background-color: #006DA8;
+    color: #FFF;
+}
+.about-playfulchef {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #006DA8;
+}
+.about-pc-h1 {
+    text-align: center;
+}
+.about-playfulchef a {
+    color: #A05EB5;
+}
+.about-playfulchef a:hover {
+    color: #C8102E;
+}
+.about-playfulchef img {
+    display: block;
+    margin: auto;
+    padding: 1em;
+    width: 150px;
+}
+.about-playfulchef .littleboy-image {
+    width: 500px;
+}
+.why {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #84BD00;
+    text-align: center;
+    padding: 1em;
+}
+.why-narrow-list {
+    max-width: 500px;
+    margin: auto;
+}
+.why img {
+    padding-top: 1.5em;
+}
+.about-mindware {
+    background-color: #F46508;
+    padding: 1em;
+}
+.about-mindware img {
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+}
+.mindware-content {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+}
+.mindware-content a {
+    color: #FFF;
+}
+.mindware-content a:hover {
+    color: #006DA8;
+}
+.contact {
+    background-color: #006DA8;
+    padding: 1em;
+}
+.contact-content {
+    margin: 0 auto;
+    max-width: 900px;
+    color: #FFF;
+    text-align: center;
+}
+.contact-content a {
+    color: #FFF;
+}
+.contact-content a:hover {
+    color: #F7C124;
+}
+footer {
+    background-color: #006DA8;
+    color: #FFF;
+    text-align: center;
+    padding: 1em;
+    font-size: .6em;
+}
+
+@media screen and (max-width: 1800px) {
+    .hero-h1 {
+        padding-top: 3em;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .hero {
+        height: 650px;
+    }
+    .hero-h1 {
+        font-size: 6em;
+        padding-top: 3.3em;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .introduction {
+        max-width: 700px;
+    }
+    .hero-h1 {
+        font-size: 5em;
+        padding-top: 4em;
+    }
+    main {
+        max-width: 700px;
+    }
+    .about-playfulchef {
+        max-width: 700px;
+    }
+    .why {
+        max-width: 700px;
+    }
+    .mindware-content {
+        max-width: 700px;
+    }
+    .contact-content {
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .introduction {
+        max-width: 450px;
+    }
+    .hero-h1 {
+        font-size: 4em;
+        padding-top: 5.5em;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .introduction img {
+        width: 200px;
+    }
+    main {
+        max-width: 400px;
+    }
+    main img {
+        width: 350px;
+    }
+    .about-playfulchef {
+        max-width: 400px;
+    }
+    .about-playfulchef .littleboy-image {
+        width: 350px;
+    }
+    .why {
+        max-width: 400px;
+    }
+    .mindware-content {
+        max-width: 400px;
+    }
+    .contact-content {
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .introduction {
+        max-width: 300px;
+    }
+    .hero {
+        height: 450px;
+    }
+    .hero-h1 {
+        font-size: 2.5em;
+        padding-top: 6.5em;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    nav {
+        padding: 1em;
+        font-size: 1em;
+    }
+    nav a {
+        padding: .5em;
+    }
+    .introduction img {
+        width: 150px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    main {
+        max-width: 275px;
+    }
+    main img {
+        width: 250px;
+    }
+    .order-button-div {
+        margin: auto;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+    .about-playfulchef {
+        max-width: 250px;
+    }
+    .about-playfulchef .littleboy-image {
+        width: 200px;
+    }
+    .why {
+        max-width: 300px;
+    }
+    .mindware-content {
+        max-width: 300px;
+    }
+    .contact-content {
+        max-width: 300px;
+    }
+}
